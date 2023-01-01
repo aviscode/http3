@@ -31,7 +31,7 @@ func insecureLocalCert(addr string) (tls.Certificate, error) {
 }
 
 func main() {
-	addr := "localhost:4321"
+	addr := "localhost:4433"
 	// Open the listeners
 	udpAddr, err := net.ResolveUDPAddr("udp", addr)
 	if err != nil {
